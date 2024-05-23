@@ -1,6 +1,7 @@
-const path = require('path');
+// vue.config.js
+import path from 'path';
 
-module.exports = {
+export default {
   transpileDependencies: ['pdfjs-dist'],
   configureWebpack: {
     module: {
@@ -13,3 +14,4 @@ module.exports = {
     },
   },
 };
+
